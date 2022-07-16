@@ -9,3 +9,15 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+img{
+    display: block;
+    margin: auto;
+}
+
+/* .tech{
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow:  35px 35px 70px #cccccc,
+                 -35px -35px 70px #f4f4f4;
+} */
