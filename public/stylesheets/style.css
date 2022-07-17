@@ -21,3 +21,19 @@ img{
     box-shadow:  35px 35px 70px #cccccc,
                  -35px -35px 70px #f4f4f4;
 } */
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover{
+    transition: 300ms;
+
+}
+
+.connect:hover{
+    transition: 300ms;
+    opacity: 80%;
+}
