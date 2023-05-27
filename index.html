@@ -1,216 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Web Portfolio Muhammad Fitrian</title>
-  <!-- Bs -->
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"
-    defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"
-    defer></script>
-  <!-- Custom -->
-  <link rel="stylesheet" href="public/stylesheets/style.css" />
-  <!-- Tl -->
-  <!-- <link rel="stylesheet" href="public/stylesheets/output.css" /> -->
-  <link rel="shortcut icon" href="public/images/tech/github.png" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>iyan | ShousyaDev</title>
 </head>
 
 <body>
-  <!-- nav -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#"><i class="bi bi-code-slash fw-bold"></i> <span class="fw-bold"> My
-          Portfolio</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item mx-2">
-            <a class="nav-link" aria-current="page" href="#aboutme">About Me</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link" href="#interest">Personal Interest</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a href="https://github.com/justnotiyann?tab=repositories" target="_blank" class="nav-link">My Personal
-              Projects</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- end -->
-
-  <!-- Hero -->
-  <section class="landingpage bg-light" id="home">
-    <div class="container">
-      <div class="row align-items-center align-content-center min-vh-100">
-        <div class="col-sm-12 col-md-6">
-          <img src="public/images/hero/crop1:1 biru.jpg" alt="" class="rounded-circle img-thumbnail" />
-        </div>
-        <div class="col-sm-12 col-md-6 order-md-first">
-          <p class="text-muted mb-3">Hai,👋</p>
-          <h2 class="fs-4 fw-bold">Saya Muhammad Fitrian</h2>
-          <h1 class="text-primary text-uppercase fs-3 fw-bold">Backend Developer</h1>
-          <p class="text-muted mt-3">Mahasiswa aktif Teknik Informatika dan berfokus pada bidang pengembangan Web
-            Development.</p>
-          <div class="row">
-            <!-- <div class="col-sm-12 col-md-6 col-lg-4">
-                <p class="text-whit text-white text-center bg-primary rounded-2 p-2 connect">Connect with me 🙌</p>
-              </div> -->
-            <div class="col-sm-12 col-md-6 col-lg-8">
-              <p class="text-whit text-white text-center bg-primary rounded-2 p-2 connect">My Sosial Media 🙌</p>
-
-              <div class="app text-center d-flex justify-content-evenly align-items-center">
-                <a href="https://github.com/justnotiyann" target="_blank">
-                  <i class="bi bi-github fs-1 fw-bold mx-1"></i>
+    <!-- Navbar -->
+    <header class="">
+        <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="/" class="flex items-center">
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                        <i class="fa-solid fa-bolt"></i>
+                    </span>
                 </a>
-                <a href="https://instagram.com/just_iyann" target="_blank">
-                  <i class="bi bi-instagram fs-1 fw-bold mx-1"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/muhammad-fitrian-735b71220/" target="_blank">
-                  <i class="bi bi-linkedin fs-1 fw-bold mx-1"></i>
-                </a>
-              </div>
+                <button data-collapse-toggle="navbar-dropdown" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-dropdown" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto text-dark duration-300 ease-in-out" id="navbar-dropdown">
+                    <ul
+                        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#projects"
+                                class="font-bold block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                My Projects
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-bold block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="px-2 mt-[6em] md:mt-[7em] min-h-screen">
+        <div
+            class="container flex flex-col justify-center items-center md:flex md:flex-row md:justify-center md:items-center">
+            <div class="side-left md:order-2 ">
+                <img src="./src/images/image.png" alt="" class="rounded-full">
+            </div>
+            <div class="side-right md:order-1">
+                <h1 class="text-lg text-light">Hai,</h1>
+                <h1 class="text-xl font-extrabold">I'm Muhammad Fitrian</h1>
+                <p class="py-1 font-lg text-primary-gray">
+                    Javascript Backend Developer | Informatic Student
+                    <!-- A man who love Tech, Code, and Music -->
+                    <!-- Mahasiswa Informatika  -->
+                </p>
+                <div class="icons flex gap-x-2 py-2">
+                    <button
+                        class="py-2 px-6 rounded-lg bg-teal-400 flex justify-center items-center gap-x-2 text-white font-bold">
+                        <a href="https://github.com/justnotiyann" target="_blank">
+                            <i class="fa-brands hover:text-primary-teal duration-300 ease-in-out fa-github"></i>
+                        </a>
+                        <p>Github</p>
+                    </button>
+                    <button
+                        class="py-2 px-6 rounded-lg bg-violet-400 flex justify-center items-center gap-x-2 text-white font-bold">
+                        <a href="https://github.com/justnotiyann" target="_blank">
+                            <i class="fa-brands hover:text-primary-teal duration-300 ease-in-out fa-instagram"></i>
+                        </a>
+                        <p>Instagram</p>
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- end -->
+    </section>
 
-  <!-- about me -->
-  <section class="aboutme p-5" id="aboutme">
-    <div class="container">
-      <div class="kata-kata mb-2 col-8 offset-2 text-center">
-        <h3 class="text-center fw-bold text-primary p-2">ABOUT ME</h3>
-        <p class="text-muted">
-          Saya iyan dan saat ini mendalami bidang Fullstack Web Development Didukung dengan pengalaman organisasi yang
-          baik menjadikan saya sebagai seorang yang dapat berkerja sama dengan kelompok maupun individu.
-        </p>
-      </div>
-
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-lg-12">
-          <!-- <h5 class="fw-bold text-center p-2">Teknologi <span class="">Yang Digunakan</span></h5> -->
-          <div class="row d-flex justify-content-evenly align-items-center">
-            <div class="col-sm-2">
-              <img src="public/images/tech/basic/html.png" alt="" width="50%" />
+    <!-- Projects -->
+    <section id="projects" class="px-2">
+        <div class="container flex flex-col justify-center items-center">
+            <div class="w-full title text-center py-5 ">
+                <h1 class="text-2xl font-bold">My Projects</h1>
+                <p class="text-gray-500 py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Recusandae, unde
+                    fugiat quas
+                    natus officiis quod quis sunt magnam nostrum voluptas?</p>
             </div>
-            <div class="col-sm-2">
-              <img src="public/images/tech/basic/css.png" alt="" width="50%" />
+            <div
+                class="w-full projects flex flex-col gap-y-5 md:flex-row md:gap-x-5 md:justify-center md:items-start md:flex-wrap md:items-stretch">
+                <div
+                    class="card flex flex-col gap-y-2 p-2 border-2 border-solid rounded-lg md:w-1/4 md:gap-x-3 md:flex-wrap md:justify-center ">
+                    <div class="card-image w-full">
+                        <img src="./src/images/projects/login.png" alt="login pages" class="rounded-lg w-full">
+                    </div>
+                    <div class="card-title text-lg text-center">
+                        <h1>Front End Projects : Simple Login Pages</h1>
+                    </div>
+                    <div class="card-body text-primary-gray py-2 text-center">
+                        <p>Slicing design login pages inspired by : Font Awesome</p>
+                    </div>
+                    <div class="card-footer">
+                        <button
+                            class="w-full py-2 px-6 rounded-lg bg-primary-teal flex justify-center items-center gap-x-2 text-white font-bold">
+                            <a href="https://projects.iyanxdev.my.id/login-pages/" target="_blank"
+                                class="flex justify-evenly items-center gap-x-2">
+                                <p>Lihat Detail</p>
+                                <i class="fa-solid fa-square-arrow-up-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="card flex flex-col gap-y-2 p-2 border-2 border-solid rounded-lg md:w-1/4 md:gap-x-3 md:flex-wrap md:justify-center ">
+                    <div class="card-image w-full">
+                        <img src="./src/images/projects/login-2.png" alt="login pages" class="rounded-lg w-full">
+                    </div>
+                    <div class="card-title text-lg text-center">
+                        <h1>Front End Projects : Simple Login Pages</h1>
+                    </div>
+                    <div class="card-body text-primary-gray py-2 text-center">
+                        <p>Slicing design login pages inspired by : Font Awesome</p>
+                    </div>
+                    <div class="card-footer">
+                        <button
+                            class="w-full py-2 px-6 rounded-lg bg-primary-teal flex justify-center items-center gap-x-2 text-white font-bold">
+                            <a href="https://projects.iyanxdev.my.id/login-pages/" target="_blank"
+                                class="flex justify-evenly items-center gap-x-2">
+                                <p>Lihat Detail</p>
+                                <i class="fa-solid fa-square-arrow-up-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="card flex flex-col gap-y-2 p-2 border-2 border-solid rounded-lg md:w-1/4 md:gap-x-3 md:flex-wrap md:justify-center ">
+                    <div class="card-image w-full">
+                        <img src="./src/images/projects/pr.png" alt="login pages" class="rounded-lg w-full">
+                    </div>
+                    <div class="card-title text-lg text-center">
+                        <h1>Front End Projects : My First Web Portfolio</h1>
+                    </div>
+                    <div class="card-body text-primary-gray py-2 text-center">
+                        <p>First Web Portfolio</p>
+                    </div>
+                    <div class="card-footer">
+                        <button
+                            class="w-full py-2 px-6 rounded-lg bg-primary-teal flex justify-center items-center gap-x-2 text-white font-bold">
+                            <a href="https://projects.iyanxdev.my.id/login-pages/" target="_blank"
+                                class="flex justify-evenly items-center gap-x-2">
+                                <p>Lihat Detail</p>
+                                <i class="fa-solid fa-square-arrow-up-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="card flex flex-col gap-y-2 p-2 border-2 border-solid rounded-lg md:w-1/4 md:gap-x-3 md:flex-wrap md:justify-center ">
+                    <div class="card-image w-full">
+                        <img src="./src/images/projects/lp.png" alt="login pages" class="rounded-lg w-full">
+                    </div>
+                    <div class="card-title text-lg text-center">
+                        <h1>Front End Projects : Simple Landing Pages</h1>
+                    </div>
+                    <div class="card-body text-primary-gray py-2 text-center">
+                        <p>Slicing design login pages inspired by : CodeDesign Challenge</p>
+                    </div>
+                    <div class="card-footer">
+                        <button
+                            class="w-full py-2 px-6 rounded-lg bg-primary-teal flex justify-center items-center gap-x-2 text-white font-bold">
+                            <a href="https://projects.iyanxdev.my.id/login-pages/" target="_blank"
+                                class="flex justify-evenly items-center gap-x-2">
+                                <p>Lihat Detail</p>
+                                <i class="fa-solid fa-square-arrow-up-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-2">
-              <img src="public/images/tech/basic/javascript.png" alt="" width="50%" />
-            </div>
-            <div class="col-sm-2">
-              <img src="public/images/tech/basic/bootstrap.png" alt="" width="50%" />
-            </div>
-            <div class="col-sm-2">
-              <img src="public/images/tech/basic/git.png" alt="" width="50%" />
-            </div>
-            <div class="col-sm-2">
-              <img src="public/images/tech/sass.png" alt="" width="50%" />
-            </div>
-            <div class="col-sm-2">
-              <img src="public/images/tech/nodejs.png" alt="" width="100%" />
-            </div>
-            <div class="col-sm-2">
-              <img src="public/images/tech/express.png" alt="" width="100%" />
-            </div>
-          </div>
         </div>
-        <!-- <div class="col-sm-10 col-md-8 col-lg-5">
-          <!-- <h5 class="fw-bold text-center p-2">Recently Learning</h5> -->
-        <!-- <div class="row d-flex justify-content-center align-items-center"> -->
-        <!-- <div class="col-sm-2 mb-3">
-                <img src="public/images/tech/react.png" alt="" width="50%" />
-              </div> -->
-        <!-- </div> -->
-        <!-- </div> -->
-      </div>
-    </div>
-  </section>
-  <!-- about me -->
+    </section>
 
-  <!--personal interest start -->
-  <section class="bg-light mb-5 p-4" id="interest">
-    <div class="container">
-      <div class="kata-kata mb-2 p-3">
-        <h3 class="text-center fw-bold text-primary">My Personal Interest</h3>
-      </div>
-
-      <div class="row d-flex justify-content-center text-center">
-        <!-- SERVICES 1 -->
-        <div class="col-sm-12 col-md-4 col-lg-3 mx-3 p-3 bg-white shadow-sm p-3 mb-5 rounded-3">
-          <div class="services-items1">
-            <div class="logo my-5">
-              <i class="bi bi-code-slash text-primary fw-bold fs-1"></i>
-            </div>
-            <div class="body">
-              <p class="fs-4 fw-bold">Web Development</p>
-              <p class="text-muted">Proses pengembangan web, Mulai dari front-end hingga back-end</p>
-            </div>
-          </div>
-        </div>
-        <!-- END SERVICES 1 -->
-
-        <!-- SERVICES 2 -->
-        <div class="col-sm-12 col-md-4 col-lg-3 mx-3 p-3 bg-white shadow-sm p-3 mb-5 rounded-3">
-          <div class="services-items1">
-            <div class="logo my-5">
-              <i class="bi bi-image-fill text-primary fw-bold fs-1"></i>
-            </div>
-            <div class="body">
-              <p class="fs-4 fw-bold">Web Designer</p>
-              <p class="text-muted">
-                Membuat design web yang <br />
-                <span class="fst-italic">eye catching</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- END SERVICES 2 -->
-
-        <!-- SERVICES 3 -->
-        <div class="col-sm-12 col-md-4 col-lg-3 mx-3 p-3 bg-white shadow-sm p-3 mb-5 rounded-3">
-          <div class="services-items1">
-            <div class="logo my-5">
-              <i class="bi bi-heart-fill text-primary fw-bold fs-1"></i>
-            </div>
-            <div class="body">
-              <p class="fs-4 fw-bold">Web Enthusiast</p>
-              <p class="text-muted">Selalu berusaha mengikuti semua perkembangan teknologi web</p>
-            </div>
-          </div>
-        </div>
-        <!-- END SERVICES 3 -->
-      </div>
-    </div>
-  </section>
-  <!--personal interest end -->
-
-
-  <!-- Footer -->
-  <section class="container-fluid text-center">
-    <p>Created with <i class="bi bi-heart-fill text-danger"></i> by @just_iyann</p>
-  </section>
-  <!-- end -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <script src="https://kit.fontawesome.com/c5a4856bc1.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
