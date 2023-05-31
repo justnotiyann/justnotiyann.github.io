@@ -53,7 +53,6 @@ function renderCard({ url, title, body, link }) {
             <p>${body}</p>
         </div>
         <div class="card-footer">
-            <a href="${link}" target="_blank" class="flex justify-evenly items-center gap-x-2">
                 <button
                     class="w-full py-2 px-6 rounded-lg bg-primary-teal flex  justify-center items-center gap-x-2 text-white font-bold">
 
