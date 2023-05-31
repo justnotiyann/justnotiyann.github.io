@@ -10,22 +10,26 @@ const projectsData = [
     {
         url: 'projects2',
         title: "Simple Login Page - Skyline",
-        body: "Inspired By : CodeDesign Challenge"
+        body: "Inspired By : CodeDesign Challenge",
+        link: "https://projects.iyanxdev.my.id/codewithcoffie"
     },
     {
         url: 'projects3',
         title: "Simple Login Page - MonkeyType",
-        body: "Inspired By : MonkeyType"
+        body: "Inspired By : MonkeyType",
+        link: "https://projects.iyanxdev.my.id/FE-SLICING-MONKEYTYPE"
     },
     {
         url: 'projects4',
         title: "Simple Login Page - Font Awesome",
-        body: "Inspired By : Font Awesome"
+        body: "Inspired By : Font Awesome",
+        link: "https://projects.iyanxdev.my.id/login-pages/"
     },
     {
         url: 'projects5',
         title: "Simple Landing Page -  Suxz",
-        body: "Inspired By : Challenge CodeDesign"
+        body: "Inspired By : Challenge CodeDesign",
+        link: "https://projects.iyanxdev.my.id/sxuz/"
     },
     {
         url: 'projects7',
