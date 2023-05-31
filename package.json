@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev":"npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
+    "start:dev": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
     "tailwindcss": "^3.3.2"
   }
 }
